@@ -14,7 +14,7 @@ int linear_Search(int arr[], int n, int search) {
 
 int main() {
     int a[] = {101, 20, 49, 385, 210, 620, 85, 921, 12, 206};
-    int n = sizeof(a);
+    int n = sizeof(a)/sizeof(a[0]);
     int search;
 
     printf("Enter the number to be searched: ");
